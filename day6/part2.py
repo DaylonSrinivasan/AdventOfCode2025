@@ -45,7 +45,7 @@ def parse(input: str) -> list[Problem]:
         for line in number_lines:
             if not line[c].isnumeric():
                 continue
-            num *= 10W
+            num *= 10
             num += int(line[c])
         problems[current_problem].numbers.append(num)
 
